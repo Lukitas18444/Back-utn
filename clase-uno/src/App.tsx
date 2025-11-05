@@ -15,6 +15,15 @@ function App() {
       setAgregar([...agregar,valor])
       setValor("")
     }
+ const handleCheck = () =>{
+      agregar.map((agrego) => (
+                  
+
+                    {agrego} 
+      ))
+    }
+   
+
 
 
   return (
@@ -29,9 +38,10 @@ function App() {
             <ul>
               {
                 agregar.map((agrego, index) => (
+                  
                   <li key={index} >
-                    {agrego}
-                  </li>
+                    {agrego} <button onClick={handleCheck}>Check</button> <button>Cruz</button> <button>Pendiente</button>
+                  </li> 
                 ))
               }
             </ul>
