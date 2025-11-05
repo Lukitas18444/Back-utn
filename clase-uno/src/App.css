@@ -1,0 +1,21 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.container{
+  margin:auto;
+  border: 1px solid rgb(161, 161, 0);
+  width: 70vw;
+  height: 550px;
+  background-color: wheat;
+}
+.container-input{
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2%;
+}
